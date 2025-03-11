@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maria Rachel</title>
+    <link rel="stylesheet" href="style.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');</style>
+</head>
+<body>
+    <!-- Header and Navigation Bar -->
+    <header>
+        <nav>
+            <div><img id="logo" src="Assets/logo.png" alt="Maria Rachel"></div>
+            <div class="menu">
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#hobbies">HOBBIES</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="empower" class="hero-1">
+        <h1>Empowering Filipinas <br>Through Creativity & Growth</h1>
+    </section>
+
+    <section class="hero-image"></section>
+
+    <section class="hero-2">
+        <h1>Capture. Inspire. <br>Educate. Empower.</h1>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="typing">About Me</h2>
+        <div id="about-div">
+            <!-- Left Column: About Me image -->
+            <img id="about-image" class="zoom-image" src="Assets/photo-2.jpg" alt="Maria Rachel">
+            <!-- Right Column: About Me text -->
+            <div id="about-text">
+                <p id="name"><strong>Hi, I'm Maria Rachel! 🌻</strong></p>
+                <p>A photographer, educator, and creative entrepreneur passionate about capturing moments and inspiring women in photography. 
+                    <br><br>Whether behind the camera, teaching math, or running a business, I strive to create, inspire, and innovate.</p>
+                <button id="funFactBtn" onclick="showFunFact()"><strong>Fun Fact About Me</strong></button>
+                <p id="funFact"></p>
+                <script>
+                    function showFunFact() {
+                        var funFact = "I've watched Friends a million times and it never fails to make me laugh out loud. :)";
+                        document.getElementById("funFact").textContent = funFact;
+                    }
+                </script>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies">
+        <h2 class="typing">Hobbies & Interests</h2>
+        <div id="hobbies-div">
+            <!-- Column 1: Photography -->
+            <div>
+                <img class="zoom-image hobbies-image" src="Assets/photo-3.png" alt="Photography">
+                <p><strong>Photography</strong></p> 
+                <p>I capture candid moments through street, travel, and portrait photography, telling stories that empower Filipinas.</p>
+            </div>
+            <!-- Column 2: Baking -->
+            <div>
+                <img class="zoom-image hobbies-image" src="Assets/photo-4.png" alt="Street & Travel Photography">
+                <p><strong>Baking</strong></p>
+                <p>I love creating homemade treats, especially cream cheese garlic bread and chocolate chip cookies.</p>
+            </div>
+            <!-- Column 3: Digital Art -->
+            <div>
+                <img class="zoom-image hobbies-image"  src="Assets/photo-5.png" alt="Street & Travel Photography">
+                <p><strong>Digital Art</strong></p>
+                <p>I explore digital art to bring ideas to life, blending creativity and technology to create unique visuals and illustrations.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="typing">Keep in Touch</h2>
+        <div class="contact-container">
+            <!-- Left Column: Contact Text -->
+            <div class="contact-info">
+                <h2>Leave Me a Message 📝</h2>
+                <p>Have a question, a collaboration idea, or just want to say hi? I'd love to hear from you! Feel free to reach out, and let's connect.</p>
+                <div class="icons">
+                    <a href="mailto:mmsaluna@up.edu.ph" target="_blank"><img class="zoom-image icon" src="Assets/email.png" alt="email"></a>
+                    <a href="https://linkedin.com/in/rachelmsaluna" target="_blank"><img class="zoom-image icon" src="Assets/linkedin.png" alt="linkedin"></a>
+                    <a href="https://facebook.com/msmariarachel" target="_blank"><img class="zoom-image icon" src="Assets/facebook.png" alt="facebook"></a>
+                    <a href="https://instagram.com/msmariarachel" target="_blank"><img class="zoom-image icon" src="Assets/instagram.png" alt="instagram"></a>
+                </div>
+            </div>
+    
+            <!-- Right Column: Contact Form -->
+            <div class="contact-form">
+                <form action="https://formspree.io/f/mdkeoovk" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+    
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Header and Navigation Bar -->
+    <footer>
+        <p>&copy; 2025 Maria Rachel. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
