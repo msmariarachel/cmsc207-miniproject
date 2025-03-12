@@ -225,6 +225,10 @@ textarea {
     min-height: 120px;
 }
 
+#name {
+    font-size: 1em;
+}
+
 button {
     background: #333;
     color: white;
