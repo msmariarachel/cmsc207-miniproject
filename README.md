@@ -42,7 +42,7 @@ function showFunFact() {
 
 <h2>How to Run</h2>
 
-Open index.html in a web browser.
+Open *index.html* in a web browser.
 
 Click the "Fun Fact About Me" button to see a random fun fact displayed.
 
@@ -57,6 +57,16 @@ If you have any questions or suggestions, feel free to reach out:
 **Facebook**: [facebook.com/in/msmariarachel](facebook.com/in/msmariarachel)
 
 **Instagram**: [instagram.com/msmariarachel](instagram.com/msmariarachel)
+
+<h2>References</h2>
+
+[Create with Code: Build Your Own Website](https://fliphtml5.com/ldrjr/jout/)
+
+[W3Schools: HTML Basics](https://www.w3schools.com/html/html_basic.asp)
+
+[CSS Tricks: A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+[CSS-Tricks - A Guide to JavaScript Events](https://css-tricks.com/intro-to-event-listeners/)
 
 <h2>Conclusion</h2>
 
