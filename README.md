@@ -42,7 +42,7 @@ function showFunFact() {
 
 <h2>How to Run</h2>
 
-Open *index.html* in a web browser.
+Open [https://msmariarachel.github.io/cmsc207-miniproject/](https://msmariarachel.github.io/cmsc207-miniproject/) in a web browser.
 
 Click the "Fun Fact About Me" button to see a random fun fact displayed.
 
