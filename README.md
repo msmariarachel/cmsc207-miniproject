@@ -8,7 +8,7 @@ This is a simple personal web profile created as part of my CMSC 207 Web Program
 
 **Basic HTML Structure**: A structured webpage with a header, navigation menu, main content, and footer.
 
-**CSS Styling**: Aesthetic improvements using an external CSS file.
+**CSS Styling**: Aesthetic improvements, basic animations and transitions using an external CSS file.
 
 **Interactivity with JavaScript**: Clicking the "**Fun Fact About Me**" button displays a random fact.
 
@@ -16,7 +16,7 @@ This is a simple personal web profile created as part of my CMSC 207 Web Program
 
 **HTML**: For structuring the webpage.
 
-**CSS**: For styling and layout.
+**CSS**: For styling,layout, animations and transitions.
 
 **JavaScript**: For adding interactivity.
 
